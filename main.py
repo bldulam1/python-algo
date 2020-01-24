@@ -1,7 +1,7 @@
-from mine_sweeper import mine_sweeper, reveal
+from array_rotation import rotate
 
 if __name__ == '__main__':
-    grid = mine_sweeper([[0, 0], [3, 3]], 4, 4)
+    grid = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
     print(grid)
-    reveal(grid, 1, 2)
+    rotate(grid, 4)
     print(grid)
