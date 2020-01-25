@@ -1,4 +1,4 @@
-class Node:
+class LLNode:
     def __init__(self, value, child):
         self.value = value
         self.child = child
@@ -12,7 +12,7 @@ class LinkedList:
         for ind in range(list_len):
             ind = list_len - ind - 1
             value = list[ind]
-            self.head = Node(value, self.head)
+            self.head = LLNode(value, self.head)
 
     def nth_from_head(self, n):
         new_ll = LinkedList([])

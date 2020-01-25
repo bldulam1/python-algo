@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bc8f95b-5e78-455b-94a0-b8f52ef2ddaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary_search_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,8 @@
       <workItem from="1579522832385" duration="1234000" />
       <workItem from="1579863712529" duration="5420000" />
       <workItem from="1579900168242" duration="1193000" />
-      <workItem from="1579901918912" duration="5321000" />
+      <workItem from="1579901918912" duration="9502000" />
+      <workItem from="1579927824148" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1579902392722</created>
@@ -110,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579904282660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="linked list">
+      <created>1579907349191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579907349191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,29 +128,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore" />
     <MESSAGE value="3D array rotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="3D array rotation" />
+    <MESSAGE value="linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="248" y="27" width="860" height="698" key="CommitChangelistDialog2" timestamp="1579904282509">
+    <state x="248" y="27" width="860" height="698" key="CommitChangelistDialog2" timestamp="1579907349095">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="248" y="27" width="860" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1579904282509" />
-    <state width="1320" height="157" key="GridCell.Tab.0.bottom" timestamp="1579907231605">
+    <state x="248" y="27" width="860" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1579907349095" />
+    <state width="1320" height="157" key="GridCell.Tab.0.bottom" timestamp="1579929505566">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state width="1320" height="157" key="GridCell.Tab.0.bottom/0.27.1366.698@0.27.1366.698" timestamp="1579907231605" />
-    <state width="1320" height="157" key="GridCell.Tab.0.center" timestamp="1579907231605">
+    <state width="1320" height="157" key="GridCell.Tab.0.bottom/0.27.1366.698@0.27.1366.698" timestamp="1579929505566" />
+    <state width="1320" height="157" key="GridCell.Tab.0.center" timestamp="1579929505565">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state width="1320" height="157" key="GridCell.Tab.0.center/0.27.1366.698@0.27.1366.698" timestamp="1579907231605" />
-    <state width="1320" height="157" key="GridCell.Tab.0.left" timestamp="1579907231604">
+    <state width="1320" height="157" key="GridCell.Tab.0.center/0.27.1366.698@0.27.1366.698" timestamp="1579929505565" />
+    <state width="1320" height="157" key="GridCell.Tab.0.left" timestamp="1579929505565">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state width="1320" height="157" key="GridCell.Tab.0.left/0.27.1366.698@0.27.1366.698" timestamp="1579907231604" />
-    <state width="1320" height="157" key="GridCell.Tab.0.right" timestamp="1579907231605">
+    <state width="1320" height="157" key="GridCell.Tab.0.left/0.27.1366.698@0.27.1366.698" timestamp="1579929505565" />
+    <state width="1320" height="157" key="GridCell.Tab.0.right" timestamp="1579929505566">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state width="1320" height="157" key="GridCell.Tab.0.right/0.27.1366.698@0.27.1366.698" timestamp="1579907231605" />
+    <state width="1320" height="157" key="GridCell.Tab.0.right/0.27.1366.698@0.27.1366.698" timestamp="1579929505566" />
     <state width="1320" height="198" key="GridCell.Tab.1.bottom" timestamp="1579904088743">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
@@ -158,20 +168,20 @@
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state width="1320" height="198" key="GridCell.Tab.1.right/0.27.1366.698@0.27.1366.698" timestamp="1579904088743" />
-    <state x="278" y="112" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1579902395533">
+    <state x="278" y="112" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1579907358628">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="278" y="112" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1579902395533" />
-    <state x="339" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1579901929065">
+    <state x="278" y="112" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1579907358628" />
+    <state x="339" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1579927830388">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="339" y="203" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1579901929065" />
+    <state x="339" y="203" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1579927830388" />
     <state x="346" y="46" key="search.everywhere.popup" timestamp="1579900408060">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state x="346" y="46" key="search.everywhere.popup/0.27.1366.698@0.27.1366.698" timestamp="1579900408060" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1579907231595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1579929505550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
