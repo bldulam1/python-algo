@@ -1,3 +1,6 @@
+import collections
+
+
 def generate_patterns(word):
     for i in range(len(word)):
         yield word[:i] + "*" + word[i + 1:]
@@ -32,10 +35,21 @@ def find_ladders(begin, end, words):
                     queue.append((word_relative, level + 1))
 
 
-if __name__ == '__main__':
-    beginWord = "hit"
-    endWord = "cog"
-    wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
+def first_non_repeating_character(word):
+    chars = collections.defaultdict(int)
+    single_char_index = 0
+    for i in range(len(word)):
+        char = word[i]
+        chars[char] += 1
 
-    print(find_ladders(beginWord, endWord, wordList))
+
+if __name__ == '__main__':
+    # beginWord = "hit"
+    # endWord = "cog"
+    # wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
+    #
+    # print(find_ladders(beginWord, endWord, wordList))
     # print(my_ladder_length(beginWord, endWord, wordList))
+
+    char = first_non_repeating_character("aksjdhfkashdfklasdf")
+    print(char)
